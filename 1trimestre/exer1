@@ -1,1 +1,4 @@
-
+x = int(input("Digite um valor: "))
+y = int(input("Digite um segundo valor: "))
+resultado = x + y
+print("O resultado é: ", resultado)
