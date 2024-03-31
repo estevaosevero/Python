@@ -1,6 +1,6 @@
-numero_1 = float(input("Digite o primeiro número: "))
-numero_2 = float(input("Digite o segundo número: "))
-numero_3 = float(input("Digite o terceiro número: "))
+numero_1 = int(input("Digite o primeiro número: "))
+numero_2 = int(input("Digite o segundo número: "))
+numero_3 = int(input("Digite o terceiro número: "))
 
 maior = numero_1
 if numero_2 > maior:
