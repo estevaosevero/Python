@@ -1,11 +1,11 @@
-numero1 = float(input("Digite o primeiro número: "))
-numero2 = float(input("Digite o segundo número: "))
-numero3 = float(input("Digite o terceiro número: "))
+numero_1 = float(input("Digite o primeiro número: "))
+numero_2 = float(input("Digite o segundo número: "))
+numero_3 = float(input("Digite o terceiro número: "))
 
-maior = numero1
-if numero2 > maior:
-    maior = numero2
-if numero3 > maior:
-    maior = numero3
+maior = numero_1
+if numero_2 > maior:
+    maior = numero_2
+if numero_3 > maior:
+    maior = numero_3
 
 print("O maior número é:", maior)
