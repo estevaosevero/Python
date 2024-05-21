@@ -1,1 +1,14 @@
-
+from PIL import Image
+#Abrindo a imagem
+imagem Image.open('logo.jpg')
+#Obtendo largura e altura
+largura, altura imagem.size
+print(largura)
+print(altura)
+for x in range(largura):
+for y in range(altura):
+pixel-imagem.getpixel((x,y))
+print(pixel)
+novo_pixel=tuple(255-valor for valor in pixel)
+imagem.putpixel((x,y), novo_pixel)
+imagem.save('logo_negativo.jpg')
